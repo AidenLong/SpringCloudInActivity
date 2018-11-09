@@ -14,5 +14,5 @@ public interface UserMapper {
     List<UserBean> selectUser(@Param("mobile") String mobile, @Param("password") String password);
 
     @Select("select id,mobile,password from news_user where mobile = #{mobile}")
-    List<UserBean> selectUser1(String mobile);
+    List<UserBean> selectUserByMobile(String mobile);
 }
