@@ -22,7 +22,7 @@ public class TestDB {
             LoginRequest request = new LoginRequest();
             request.setMobile("13800138000");
             request.setPassword("1");
-            System.out.println(userService.login(request));
+            System.err.println(userService.login(request));
         }catch (Exception e){
             e.printStackTrace();
         }

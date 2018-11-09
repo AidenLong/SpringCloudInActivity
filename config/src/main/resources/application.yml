@@ -9,10 +9,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/springcloudlynn/springcloudinactivity #配置git仓库地址
+          uri: https://github.com/ShenYaoLong/springcloudinactivity-1 #配置git仓库地址
           searchPaths: repo #配置仓库路径
-          username: springcloudlynn #访问git仓库的用户名
-          password: ly123456 #访问git仓库的用户密码
+          username: ShenYaoLong #访问git仓库的用户名
+          password: sg201314 #访问git仓库的用户密码
       label: master #配置仓库的分支
 eureka:
   instance:
